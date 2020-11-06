@@ -4,10 +4,10 @@ import Timer from '../../Helper/Timer';
 
 function Main() {
     const [timeInSeconds, setTimeInSeconds] = useState<number>(0);
-    const [timerArray, setTimerArray] = useState<Array<number>>([]);
+    const [timerArray, setTimerArray] = useState<Array<number | string>>([]);
 
     useEffect(() => {
-        let timeArray: Array<number> = Timer(timeInSeconds);
+        let timeArray: Array<number | string> = Timer(timeInSeconds);
         setTimerArray(timeArray);
     }, [timeInSeconds]);
 

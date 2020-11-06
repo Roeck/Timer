@@ -1,9 +1,17 @@
 import React from 'react';
+import './Controls.css';
 
-function Controls() {
+
+type Props = {
+    setTimeInSeconds: Function
+};
+
+function Controls(props: any) {
     return (
-        <section>
-
+        <section className="controls-container">
+            <button>Play</button>
+            <button>Stop</button>
+            <button>Reset</button>
         </section>
     )
 }

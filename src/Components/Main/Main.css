@@ -12,7 +12,7 @@ body {
 .time-container {
     color: white;
     display: flex;
-    letter-spacing: 2px;
+    letter-spacing: 31px;
 }
 
 .time-container span {

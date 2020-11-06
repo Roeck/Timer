@@ -9,9 +9,9 @@ type Props = {
 function Controls(props: any) {
     return (
         <section className="controls-container">
-            <button>Play</button>
-            <button>Stop</button>
-            <button>Reset</button>
+            <button className="big-button">Play</button>
+            <button className="big-button">Stop</button>
+            <button className="big-button">Reset</button>
         </section>
     )
 }

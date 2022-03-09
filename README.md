@@ -1,4 +1,4 @@
-<h3>My first web app using TypeScript, with some basic CSS styling.</h3>
+<h3>My first web app using TypeScript, stateful ReactJS with Hooks and some basic CSS styling.</h3>
 <a href="https://timer9.netlify.app">LIVE DEMO</a>
 <br><br>
 
